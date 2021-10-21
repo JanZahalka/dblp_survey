@@ -51,7 +51,7 @@ argparser = argparse.ArgumentParser()
 argparser.add_argument("year", type=int, help="The year from which the oldest "
                        "publications to be considered come.")
 argparser.add_argument("--split", choices=["none", "per-venue"],
-                       default="per-source", help="'none' if all matching "
+                       default="per-venue", help="'none' if all matching "
                        "papers should be in one file, 'per-source' if each "
                        "file should correspond to papers from one venue "
                        "(conference/journal)")
